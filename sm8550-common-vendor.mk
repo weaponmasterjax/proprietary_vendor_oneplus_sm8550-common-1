@@ -1268,6 +1268,7 @@ PRODUCT_PACKAGES += \
     pm-service \
     port-bridge \
     power_off_alarm \
+    PowerOffAlarm \
     ppd \
     qcc-vendor \
     qdcmss \
