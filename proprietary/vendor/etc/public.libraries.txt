@@ -9,3 +9,17 @@ libarcsoft_scbokeh_video.so
 libQEGA.qti.so
 libaiboost.so
 libaiboost_llm.so
+libarcsoft_hdr_couple_api.so
+libarcsoft_high_dynamic_range_couple.so
+libarcsoft_smart_denoise.so
+libarcsoft_turbo_hdr_raw.so
+libarcsoft_turbo_raw.so
+libarcsoft_qnnhtp.so
+libQnnHtp.so
+libQnnSystem.so
+libQnnHtpV73Stub.so
+libQnnGpu.so
+libAlgoProcess.so
+libOplusSecurity.so
+libalog.so
+libapsfixup.so
