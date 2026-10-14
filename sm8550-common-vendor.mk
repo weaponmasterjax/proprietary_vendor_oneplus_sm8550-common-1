@@ -427,6 +427,7 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.1-impl-qti \
     android.hardware.gatekeeper@1.0-impl-qti \
     android.hardware.gnss-aidl-impl-qti \
+    audio.bluetooth_qti.default \
     audio.primary.kalama \
     com.dsi.ant@1.0-impl \
     vendor.qti.esepowermanager@1.1-impl_vendor \
