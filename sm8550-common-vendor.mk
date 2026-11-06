@@ -173,13 +173,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.qti.hardware.factory@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.factory@1.0-service.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.qti.hardware.limits-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.limits-service.rc \
-    vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.qti.hardware.perf-hal-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf-hal-service.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2audio@1.0-service.rc \
-    vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.qspmhal@1.0-service.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
@@ -199,13 +197,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/models/acd/speech.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/speech.eai \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/oplus_Widevine_licenses.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/oplus_Widevine_licenses.pfm \
-    vendor/oneplus/sm8550-common/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
-    vendor/oneplus/sm8550-common/proprietary/vendor/etc/perf/commonsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonsysnodesconfigs.xml \
-    vendor/oneplus/sm8550-common/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
-    vendor/oneplus/sm8550-common/proprietary/vendor/etc/perf/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/powerhint.xml \
-    vendor/oneplus/sm8550-common/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
-    vendor/oneplus/sm8550-common/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
-    vendor/oneplus/sm8550-common/proprietary/vendor/etc/perf/targetsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetsysnodesconfigs.xml \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/permissions/vendor.qti.hardware.factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.qti.hardware.factory.xml \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
@@ -244,7 +235,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/qcrilnr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qcrilnr@2.0.policy \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/qms.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qms.policy \
-    vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/qwesd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qwesd@2.0.policy \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
@@ -612,9 +602,6 @@ PRODUCT_PACKAGES += \
     libpal_net_if \
     libpdmapper \
     libpdnotifier \
-    libperfconfig \
-    libperfgluelayer \
-    libperfioctl \
     libperipheral_client \
     libpwirisfeature_vendor \
     libpwirisfeaturehal \
@@ -688,10 +675,6 @@ PRODUCT_PACKAGES += \
     libqrtrclient \
     libqseed3 \
     libqsocket \
-    libqti-perfd-client \
-    libqti-perfd \
-    libqti-qesdk-secure \
-    libqti-util \
     libqtigefar \
     libqtikeymaster4 \
     libqtikeymint \
@@ -1201,7 +1184,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.diag.hal.service.xml \
     vendor.qti.gnss-service.xml \
     vendor.qti.hardware.limits-service.xml \
-    vendor.qti.hardware.perf.xml \
     vendor.qti.hardware.radio.qtiradioconfig.xml \
     vendor.qti.hardware.wifidisplaysession-service.xml \
     android.hardware.contexthub-service.qmi.xml \
@@ -1240,7 +1222,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor.qti.hardware.factory@1.0-service \
     vendor.qti.hardware.limits@1.2-service \
-    vendor.qti.hardware.perf-hal-service \
     vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.sensorscalibrate@1.0-service \
     vendor.qti.hardware.soter@1.0-service \
@@ -1295,7 +1276,6 @@ PRODUCT_PACKAGES += \
     thermal-engine-v2 \
     time_daemon \
     vendor.dpmd \
-    vendor.qti.qspmhal@1.0-service \
     vendor_modprobe \
     wfdhdcphalservice \
     wfdvndservice \
