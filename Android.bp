@@ -22701,14 +22701,6 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.qcom.post_boot",
-    owner: "oneplus",
-    src: "proprietary/vendor/bin/init.qcom.post_boot.sh",
-    filename: "init.qcom.post_boot.sh",
-    soc_specific: true,
-}
-
-sh_binary {
     name: "init.qcom.sensors",
     owner: "oneplus",
     src: "proprietary/vendor/bin/init.qcom.sensors.sh",
