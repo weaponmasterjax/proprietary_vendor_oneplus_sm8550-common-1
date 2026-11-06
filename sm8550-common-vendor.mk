@@ -428,7 +428,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl-qti \
     android.hardware.gnss-aidl-impl-qti \
     audio.bluetooth_qti.default \
-    audio.primary.kalama \
     com.dsi.ant@1.0-impl \
     vendor.qti.esepowermanager@1.1-impl_vendor \
     vendor.qti.hardware.alarm@1.0-impl \
@@ -482,9 +481,6 @@ PRODUCT_PACKAGES += \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
-    libagm \
-    libar-pal \
-    libaudio_log_utils \
     libbacklight-calib \
     libbatching \
     libbluetooth_audio_session_aidl_qti \
@@ -867,7 +863,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.limits@1.1 \
     vendor.qti.hardware.limits@1.2 \
     vendor.qti.hardware.mwqemadapter@1.0 \
-    vendor.qti.hardware.pal@1.0-impl \
     vendor.qti.hardware.qccsyshal@1.0_vendor \
     vendor.qti.hardware.qccsyshal@1.1_vendor \
     vendor.qti.hardware.qccsyshal@1.2_vendor \

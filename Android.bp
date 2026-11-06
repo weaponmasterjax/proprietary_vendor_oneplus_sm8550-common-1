@@ -815,50 +815,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "audio.primary.kalama",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/audio.primary.kalama.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "liblog",
-                "libcutils",
-                "libaudioutils",
-                "libexpat",
-                "libhidlbase",
-                "libprocessgroup",
-                "libfmq",
-                "libutils",
-                "libar-pal",
-                "libbinder_ndk",
-                "liblx-osal",
-                "libtinyalsa",
-                "libdiag",
-                "vendor.qti.hardware.pal@1.0-impl",
-                "vendor.qti.hardware.pal@1.0",
-                "vendor.qti.hardware.AGMIPC@1.0-impl",
-                "vendor.qti.hardware.AGMIPC@1.0",
-                "libagm",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "com.dsi.ant@1.0-impl",
     owner: "oneplus",
     strip: {
@@ -2503,105 +2459,6 @@ cc_prebuilt_library_shared {
                 "libdmabufheap",
                 "libvmmem",
                 "libc++",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libagm",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libagm.so",
-            ],
-            shared_libs: [
-                "libar-gsl",
-                "liblog",
-                "liblx-osal",
-                "libaudioroute",
-                "libats",
-                "libdiag",
-                "libcutils",
-                "libtinyalsa",
-                "libaudio_log_utils",
-                "libexpat",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libar-pal",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libar-pal.so",
-            ],
-            shared_libs: [
-                "libar-gsl",
-                "liblog",
-                "libexpat",
-                "liblx-osal",
-                "libaudioroute",
-                "libcutils",
-                "libutilscallstack",
-                "libagmclient",
-                "libdiag",
-                "libPeripheralStateUtils",
-                "libtinyalsa",
-                "libtinycompress",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libaudio_log_utils",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libaudio_log_utils.so",
-            ],
-            shared_libs: [
-                "libutils",
-                "libcutils",
-                "libexpat",
-                "liblog",
-                "libc++",
-                "libc",
                 "libm",
                 "libdl",
             ],
@@ -14276,40 +14133,6 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libutils",
                 "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.pal@1.0-impl",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "libhidltransport",
-                "libutils",
-                "liblog",
-                "libcutils",
-                "libfmq",
-                "libhardware",
-                "libbase",
-                "vendor.qti.hardware.pal@1.0",
-                "libar-pal",
                 "libc++",
                 "libc",
                 "libm",
